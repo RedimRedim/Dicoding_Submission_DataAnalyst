@@ -49,6 +49,12 @@ class DuckDbSetup:
             "Int64"
         )  # Converts to nullable integer type
 
+        product_df = product_df[
+            product_df["order_status"].isin(["delivered", "shipped", "canceled"])
+        ]
+
+        product_df = product_df[product_df["year"].isin([2017, 2018])]
+
         # Register the DataFrame as a table in DuckDB for further use
         self.conn.register("product_df", product_df)
 
