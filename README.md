@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Run steamlit app
 
 ```
-streamlit run dashboard.py
+streamlit run streamlit_app.py
 ```
 
 ## StreamLit Deploy Url
