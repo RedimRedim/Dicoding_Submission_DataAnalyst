@@ -23,4 +23,4 @@ streamlit run streamlit_app.py
 
 ## StreamLit Deploy Url
 
-https://dicodingsubmissiondataanalystgit-kuj9gatjqj5xw49xtipros.streamlit.app/
+https://dicodingsubmissiondataanalyst-9houwvw3ltrjk2jp6pf5cl.streamlit.app/
